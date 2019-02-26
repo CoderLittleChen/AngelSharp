@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("01AngelSharp入门")]
+[assembly: AssemblyTitle("01AngleSharpDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("01AngelSharp入门")]
+[assembly: AssemblyProduct("01AngleSharpDemo")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("6df99a96-2254-4d38-9e0d-4afa7b24941b")]
+[assembly: Guid("4baedddb-495b-4eec-b6d0-5f96442f3983")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
