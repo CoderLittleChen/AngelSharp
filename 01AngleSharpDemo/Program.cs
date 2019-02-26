@@ -23,7 +23,7 @@ namespace _01AngleSharpDemo
             //使用解析器解析文档
             IHtmlDocument document = parser.ParseDocument(html);
             IEnumerable<IElement> titleElementList = document.All.Where(m => m.ClassName == "titlelnk");
-            foreach (var item in titleElementList)
+            foreach (var item in titleElementList) 
             {
                 Console.WriteLine(item.GetAttribute("href")); 
                 //Console.WriteLine(item.InnerHtml);
