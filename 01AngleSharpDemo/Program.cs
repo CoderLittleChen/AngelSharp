@@ -25,8 +25,9 @@ namespace _01AngleSharpDemo
             IEnumerable<IElement> titleElementList = document.All.Where(m => m.ClassName == "titlelnk");
             foreach (var item in titleElementList) 
             {
-                Console.WriteLine(item.GetAttribute("href")); 
-                //Console.WriteLine(item.InnerHtml);
+                //Console.WriteLine(item.GetAttribute("href")); 
+                //输出链接中的文本内容
+                Console.WriteLine(item.InnerHtml);
             }
             //Console.WriteLine(document.DocumentElement.TextContent);
 
@@ -36,6 +37,13 @@ namespace _01AngleSharpDemo
 
         }
 
+
+        /// <summary>
+        /// 根据网页url和网页的编码获取该网页的html代码
+        /// </summary>
+        /// <param name="url">网页链接</param>
+        /// <param name="encoder">网页编码</param>
+        /// <returns></returns>
         static  string  GetHtml(string url,string encoder)
         {
             string strHTML = "";
